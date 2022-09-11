@@ -1,4 +1,4 @@
-#include <studio>
+#include <stdio>
 
 /**
  * main - Prints the alphabet in lowercase, and then in uppercase.
@@ -19,4 +19,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}  
+}
