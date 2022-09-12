@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
  * main - Prints all possible of two different digits,
  * in ascending order, seperated by a comma followed by a space.
@@ -20,8 +21,9 @@ int main(void)
 			if (digit1 == 8 && digit2 == 9)
 				continue;
 
-			putchar(',')
-			putchar(' ')
+			putchar(',');
+			putchar(' ');
+
 		}
 
 	}
