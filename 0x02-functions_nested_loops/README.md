@@ -1,1 +1,1 @@
-My first read me file in functions
+my first work in function and Nested loop
