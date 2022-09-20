@@ -1,1 +1,1 @@
-my first work in function and Nested loop
+my alx study
