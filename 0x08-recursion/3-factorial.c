@@ -1,9 +1,9 @@
-#include "main.h"
+#include"main.h"
 /**
-* factorial - returns factorial of n
-* @n: the number
-* Return: 1, -1, or factorial
-*/
+ * factorial - returns factorial of n
+ * @n: the number
+ * Return: 1, -1, or factorial
+ */
 int factorial(int n)
 {
 if (n == 0)
