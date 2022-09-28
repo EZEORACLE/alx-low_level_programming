@@ -3,7 +3,6 @@
  * _isitprime - looks for prime
  * @n: the number
  * @i: the number / 2
- *
  * Return: 1 if prime, 0 if not
  */
 int_isitprime(int n, int i)
@@ -25,7 +24,7 @@ return (_isitprime(n, i - 1));
  * @n: the number
  * Return: 1 if orime, 0 if not
  */
-intis_prime_number(int n)
+int is_prime_number(int n)
 {
 if (n < 2)
 return (0);
