@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _increasevar - increases i to find sqrt
  * @i: starts at 1
@@ -17,7 +16,6 @@ int _increasevar(int i, int n)
 	return (i);
 }
 /**
- *
  * _sqrt_recursion - finds sqrt
  * @n: the number
  * Return: -1, 0, or sqrt
@@ -35,5 +33,4 @@ int _sqrt_recursion(int n)
 		return (_increasevar(1, n));
 	}
 	return (-1);
-
 }
