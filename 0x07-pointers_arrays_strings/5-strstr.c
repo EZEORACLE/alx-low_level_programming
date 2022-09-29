@@ -8,6 +8,7 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
+
 	for (; *haystack != '\0'; haystack++)
 	{
 		char *one = haystack;
@@ -22,6 +23,5 @@ char *_strstr(char *haystack, char *needle)
 		if (*two == '\0')
 			return (haystack);
 	}
-
 	return (0);
 }
