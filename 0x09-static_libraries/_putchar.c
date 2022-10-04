@@ -1,16 +1,14 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
- * _isalpha - function to check if c is a letter, lowercase or uppercase
- * @c: is the int that will use for the argument of the function
- * Return: 0
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int _isalpha(int c)
+
+int _putchar(char c)
 {
-		if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-		{
-		return (1);
-		}
-		else
-		return (0);
+return (write(1, &c, 1));
 }
