@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "dog.h"
+
 /**
   * init_dog - initialize a variable of type struct dog.
   * @d: pointer to structure.
@@ -9,6 +10,7 @@
   *
   * Return: void
   */
+
 void init_dog(struct dog *d, char *name, float age, chars *owner)
 {
 	if (d == 0)
