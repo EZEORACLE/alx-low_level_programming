@@ -31,7 +31,7 @@ char *str_concat(char *s1, char *s2)
 	char *dst;
 	unsigned int i, j, size;
 
-	/*If the array is empty*/	
+	/*If the array is empty*/
 	if (s1 == NULL)
 		s1 = "";
 
