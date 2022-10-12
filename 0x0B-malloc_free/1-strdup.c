@@ -56,8 +56,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-
-	 size strlen(str) ++1;
+	sizeof strlen(str);
 
 	dst = (char *) malloc(size * sizeof(char));
 
@@ -65,7 +64,6 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-
 	_strcpy(dst, str);
 	return (dst);
 }
