@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *_strlen -The counting of array
  *@s: The array of elements
@@ -15,15 +16,15 @@ while (s[i] != '\0') /*count character of string*/
 	i++;
 }
 
-return(i);
+return (i);
 }
 
 /**
  *_strcpy - The copy of arrays
  *@src: The arrays of elements
  *@dest: the dest of array
-Return: dest
-*/
+ *Return: dest
+ */
 
 char *_strcpy(char *dest, char *src)
 {
@@ -52,12 +53,12 @@ char *_strdup(char *str)
 
 	if (str == 0)
 	{
-		return(NULL);
+		return (NULL);
 	}
 
 	size - _strlen(str) + 1;
 
-	dst = (char *) malloc(size *sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 
 	if (dst == 0)
 	{
@@ -67,5 +68,3 @@ char *_strdup(char *str)
 	_strcpy(dst, str);
 	return (dst);
 }
-
-
