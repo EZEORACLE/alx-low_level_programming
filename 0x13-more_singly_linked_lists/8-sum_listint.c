@@ -8,6 +8,7 @@
  * Return: If the list is empty - 0.
  *         Otherwise - the sum of all the data.
  */
+
 int sum_listint(listint_t *head)
 {
 	int sum = 0;
@@ -17,6 +18,5 @@ int sum_listint(listint_t *head)
 		sum += head->n;
 		head = head->nxt;
 	}
-
 	return (sum);
 }
