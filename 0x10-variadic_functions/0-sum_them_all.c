@@ -1,8 +1,3 @@
-/**
- * File: 0-sum_them_all.c
- * Auth: Toochukwu Eze
- */
-
 #include "variadic_functions.h"
 #include <stdarg.h>
 
@@ -14,7 +9,9 @@
  * Return: If n == 0 - 0.
  *         Otherwise - the sum of all parameters.
  */
+
 int sum_them_all(const unsigned int n, ...)
+
 {
 	va_list nums;
 	unsigned int index, sum = 0;
